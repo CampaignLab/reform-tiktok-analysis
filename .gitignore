@@ -1,0 +1,27 @@
+# Virtual environment
+yt-dlp-venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Data directories (e.g., large files, downloaded videos)
+data/raw/*.csv
+downloads/videos/
+analysis/results/video_frames/
+
+# Log files
+logs/
+*.log
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
